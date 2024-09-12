@@ -1,0 +1,83 @@
+﻿@using FurnitureStore3.Domain.Entities;
+@model CompleteOrderViewModel
+<link rel="stylesheet" href="~/styles/order.css" />
+
+@{
+    int a = 1;int b = 2;
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Заказ товаров</h4>
+            </div>
+            <div class="modal-body">
+                <form method="post" enctype="multipart/form-data">
+                    @foreach (Order order in Model.Orders)
+                    {
+                        @foreach (Product product in Model.Products)
+                        {
+                            
+                            @if (order.ProductId == product.Id && order.ClientUserId == User.Identity.Name)
+                            {
+                                int ActualPrice = 0;
+                                <div class="product-card">
+                                    <div class="product-card-left">
+                                        <div class="image-container">
+                                            <img src="/images/products/@product.ImageUrl">
+                                        </div>
+                                    </div>
+                                    <div class="product-card-right">
+                                        <h2>@product.Name</h2>
+                                        
+                                        @if (@product.Discount == 0)
+                                        {
+                                            <p>Цена товара: @product.Price ₽</p>
+                                            ActualPrice = @product.Price;
+                                        }
+                                        else
+                                        {
+                                            ActualPrice = @product.Price / 100 * (100 - @product.Discount);
+                                            <p>Цена товара: <s>@product.Price ₽</s> @ActualPrice ₽</p>
+                                        }
+                                        <label asp-for="OrderProductsName" />
+                                        <input asp-for="OrderProductsId" value="@product.Id" type="hidden" />
+                                        <input asp-for="OrderProductsName" value="@product.Name" type="hidden" />
+                                        <label asp-for="OrderProductsCount">Количество</label>
+                                        <input style="width:50px;" asp-for="OrderProductsCount" value="1" type="number" min="1" max="@product.CurrentCount"/>
+                                        <input asp-for="OrderProductsPrice" value="@ActualPrice" type="hidden"/>
+                                        <label>На складе осталось @product.CurrentCount</label>
+                                    </div>
+                                </div>
+                            }
+                        }
+                    }
+                    <div class="form-element">
+                        <label asp-for="OrderFinish"></label>
+                        <input type="date" asp-for="OrderFinish" />
+                    </div>
+                    <div class="form-element">
+                        <label asp-for="OrderAddress"></label>
+                        <input asp-for="OrderAddress" type="text" required min="5" />
+                    </div>
+                    <div class="form-element">
+                    <label>Выберите способ оплаты:</label>
+                    <div class="pick">
+                        <img width="50px" height="50px" src="~/images/pay1.png" />
+                        <img width="50px" height="50px" src="~/images/pay2.png" />
+                    </div>
+                    <div class="pick1">
+                        <p>
+                                    <input asp-for="TypePay" type="radio" value="@a">Оплата картой курьеру⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                                    <input asp-for="TypePay" type="radio" value="@b">Оплата наличными курьеру
+                        </p>
+                    </div>
+                    </div>                    
+                    <div asp-validation-summary="All" class="error-messages"></div>
+                    <input type="submit" value="Сохранить" />
+                </form>
+            </div>
+            </div>            
+        </div>
+    </div>
+    }

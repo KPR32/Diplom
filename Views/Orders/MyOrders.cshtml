@@ -1,0 +1,82 @@
+﻿@using FurnitureStore3.Domain.Entities
+@using System.Security.Claims;
+@model CompleteOrderViewModel
+@using Microsoft.AspNetCore.Identity;
+<link rel="stylesheet" href="~/styles/order.css" />
+
+@{
+    <div asp-validation-summary="All" class="error-messages1"></div>
+    <div class="div1">
+        <h1 style="margin-left:500px;white-space: nowrap;color: black;margin-bottom: 1em;width:auto;margin-top:1em;align-content:center;">Мои товары</h1>
+        
+    @Html.Partial("Details")
+    <!-- CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        @foreach (Order order in Model.Orders)
+        {
+            @if (order.ClientUserId == User.Identity.Name)
+            {
+                <button style="margin-left:325px;margin-top:1em;height:75px;width:125px;background:#B0C4DE;color:black;border:0px;" type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Заказать</button>
+                break;
+            }
+        }
+    </div>
+ 
+    int a = 0;
+    <div class="products-container">
+        <div class="products-list">
+            @foreach (Order order in Model.Orders)
+            {              
+                @if (order.ClientUserId == User.Identity.Name)
+                {
+                    a++;
+                    <div class="product-card">
+                        @foreach (Product product in Model.Products)
+                        {
+                            @if (order.ProductId == product.Id)
+                            {
+                                <div class="product-card-left">
+                                    <div class="image-container">
+                                        <img src="/images/products/@product.ImageUrl">
+                                    </div>
+                                </div>
+                                <div class="product-card-right">
+                                    <h2>@product.Name</h2>
+                                    <h4>@product.Description</h4>
+                                    <h4>Вес товара: @product.Weight кг</h4>
+                                    @if (@product.Discount == 0)
+                                    {
+                                        <h4>Цена товара: @product.Price ₽</h4>
+                                    }
+                                    else
+                                    {
+                                        int ActualPrice = @product.Price / 100 * (100 - @product.Discount);
+                                        <h4>Цена товара: <s>@product.Price ₽</s> @ActualPrice ₽</h4>
+                                    }
+                                    
+                                    <div class="placeholder-div"></div>
+                                    <div class="placeholder-div"></div>
+                                    <a class="link-button-download" asp-action="DeleteOrder" asp-controller="Orders" asp-route-orderId="@order.Id">Убрать товар</a>
+                                </div>
+                            }
+                        }
+                    </div>
+                }
+                
+            }
+        </div>
+    </div>
+    @if (a == 0)
+    {
+        <h2 style="margin-left:500px;white-space: nowrap;color: black;margin-bottom: 1em;width:auto;align-content:center;">Корзина пуста</h2>
+    }
+    
+  
+    
+    
+}
+

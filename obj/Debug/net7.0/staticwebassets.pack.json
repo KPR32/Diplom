@@ -1,0 +1,597 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Александр\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Александр\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Александр\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Александр\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Александр\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Александр\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Александр\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Александр\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Александр\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Александр\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Александр\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Александр\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Александр\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Александр\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Александр\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Александр\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Александр\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Александр\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Александр\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Александр\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Александр\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Александр\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Александр\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Александр\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Александр\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Александр\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Александр\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Александр\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Александр\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Александр\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Александр\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Александр\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Александр\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Александр\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Александр\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Александр\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Александр\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Александр\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Александр\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Александр\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Александр\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Александр\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Александр\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Александр\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\add.jfif",
+      "PackagePath": "staticwebassets\\images\\add.jfif"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\add1.jpg",
+      "PackagePath": "staticwebassets\\images\\add1.jpg"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\header1.jpg",
+      "PackagePath": "staticwebassets\\images\\header1.jpg"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\login2.jpg",
+      "PackagePath": "staticwebassets\\images\\login2.jpg"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\pay1.png",
+      "PackagePath": "staticwebassets\\images\\pay1.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\pay2.png",
+      "PackagePath": "staticwebassets\\images\\pay2.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\0gkz2sa0.lds.png",
+      "PackagePath": "staticwebassets\\images\\products\\0gkz2sa0.lds.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\0jugpq2w.acu.png",
+      "PackagePath": "staticwebassets\\images\\products\\0jugpq2w.acu.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\0wvajmhq.4fw.png",
+      "PackagePath": "staticwebassets\\images\\products\\0wvajmhq.4fw.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\1gx0seui.qkf.png",
+      "PackagePath": "staticwebassets\\images\\products\\1gx0seui.qkf.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\1ramnnu0.owv.png",
+      "PackagePath": "staticwebassets\\images\\products\\1ramnnu0.owv.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\2eatzh1g.epb.png",
+      "PackagePath": "staticwebassets\\images\\products\\2eatzh1g.epb.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\2itj2zw0.xkg.png",
+      "PackagePath": "staticwebassets\\images\\products\\2itj2zw0.xkg.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\2thxtsa5.rhn.png",
+      "PackagePath": "staticwebassets\\images\\products\\2thxtsa5.rhn.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\2u2neytu.lvk.png",
+      "PackagePath": "staticwebassets\\images\\products\\2u2neytu.lvk.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\4aaff0ln.cbq.png",
+      "PackagePath": "staticwebassets\\images\\products\\4aaff0ln.cbq.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\4mqh1nnv.sl3.png",
+      "PackagePath": "staticwebassets\\images\\products\\4mqh1nnv.sl3.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\53ynuooa.2s3.png",
+      "PackagePath": "staticwebassets\\images\\products\\53ynuooa.2s3.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\54dpp0nz.5rv.png",
+      "PackagePath": "staticwebassets\\images\\products\\54dpp0nz.5rv.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\5dtqygmn.tjh.png",
+      "PackagePath": "staticwebassets\\images\\products\\5dtqygmn.tjh.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\5lcrs5jz.dor.png",
+      "PackagePath": "staticwebassets\\images\\products\\5lcrs5jz.dor.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\5y22f3ev.mj1.png",
+      "PackagePath": "staticwebassets\\images\\products\\5y22f3ev.mj1.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\bi4km2zo.quf.png",
+      "PackagePath": "staticwebassets\\images\\products\\bi4km2zo.quf.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\bnvf421q.5eh.png",
+      "PackagePath": "staticwebassets\\images\\products\\bnvf421q.5eh.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\bu4ydb44.avm.png",
+      "PackagePath": "staticwebassets\\images\\products\\bu4ydb44.avm.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\cerz4hpb.xus.png",
+      "PackagePath": "staticwebassets\\images\\products\\cerz4hpb.xus.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\cgy4bfq0.a2k.png",
+      "PackagePath": "staticwebassets\\images\\products\\cgy4bfq0.a2k.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\cuo1ferk.gaj.png",
+      "PackagePath": "staticwebassets\\images\\products\\cuo1ferk.gaj.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\d45tfh0s.sce.png",
+      "PackagePath": "staticwebassets\\images\\products\\d45tfh0s.sce.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\e43ozp2a.0fm.png",
+      "PackagePath": "staticwebassets\\images\\products\\e43ozp2a.0fm.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\ejezwisv.5ah.png",
+      "PackagePath": "staticwebassets\\images\\products\\ejezwisv.5ah.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\erphfldi.hu3.png",
+      "PackagePath": "staticwebassets\\images\\products\\erphfldi.hu3.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\flt2joif.dkh.png",
+      "PackagePath": "staticwebassets\\images\\products\\flt2joif.dkh.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\fu1fpzt0.icq.png",
+      "PackagePath": "staticwebassets\\images\\products\\fu1fpzt0.icq.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\fuiomxe1.tid.png",
+      "PackagePath": "staticwebassets\\images\\products\\fuiomxe1.tid.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\gk1gcuxp.lcb.png",
+      "PackagePath": "staticwebassets\\images\\products\\gk1gcuxp.lcb.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\gk4yztqy.cs2.png",
+      "PackagePath": "staticwebassets\\images\\products\\gk4yztqy.cs2.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\gozkc3kg.5rj.png",
+      "PackagePath": "staticwebassets\\images\\products\\gozkc3kg.5rj.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\h2yrleof.113.png",
+      "PackagePath": "staticwebassets\\images\\products\\h2yrleof.113.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\haqsnlja.j42.png",
+      "PackagePath": "staticwebassets\\images\\products\\haqsnlja.j42.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\i5sttf5y.00w.png",
+      "PackagePath": "staticwebassets\\images\\products\\i5sttf5y.00w.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\iimubibv.sju.png",
+      "PackagePath": "staticwebassets\\images\\products\\iimubibv.sju.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\j3rb4vjy.vo2.png",
+      "PackagePath": "staticwebassets\\images\\products\\j3rb4vjy.vo2.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\jauqi10v.eop.png",
+      "PackagePath": "staticwebassets\\images\\products\\jauqi10v.eop.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\jpbip4nd.vrh.png",
+      "PackagePath": "staticwebassets\\images\\products\\jpbip4nd.vrh.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\juqins53.aio.png",
+      "PackagePath": "staticwebassets\\images\\products\\juqins53.aio.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\kgdi0dis.rs2.png",
+      "PackagePath": "staticwebassets\\images\\products\\kgdi0dis.rs2.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\klpvicws.04o.png",
+      "PackagePath": "staticwebassets\\images\\products\\klpvicws.04o.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\ksokor2w.sxa.png",
+      "PackagePath": "staticwebassets\\images\\products\\ksokor2w.sxa.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\lef40ov5.scy.png",
+      "PackagePath": "staticwebassets\\images\\products\\lef40ov5.scy.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\lyomq3gg.hpv.png",
+      "PackagePath": "staticwebassets\\images\\products\\lyomq3gg.hpv.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\mmscs4ss.kvq.png",
+      "PackagePath": "staticwebassets\\images\\products\\mmscs4ss.kvq.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\nvzb5kfi.tyb.png",
+      "PackagePath": "staticwebassets\\images\\products\\nvzb5kfi.tyb.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\nxzyoeuj.one.png",
+      "PackagePath": "staticwebassets\\images\\products\\nxzyoeuj.one.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\oa0tndtl.b3z.png",
+      "PackagePath": "staticwebassets\\images\\products\\oa0tndtl.b3z.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\obctwyjg.zk4.png",
+      "PackagePath": "staticwebassets\\images\\products\\obctwyjg.zk4.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\okeqhddp.iih.png",
+      "PackagePath": "staticwebassets\\images\\products\\okeqhddp.iih.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\owvssvij.km0.png",
+      "PackagePath": "staticwebassets\\images\\products\\owvssvij.km0.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\oxryrkgh.zz5.png",
+      "PackagePath": "staticwebassets\\images\\products\\oxryrkgh.zz5.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\product1.png",
+      "PackagePath": "staticwebassets\\images\\products\\product1.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\pt5k0n5i.etp.png",
+      "PackagePath": "staticwebassets\\images\\products\\pt5k0n5i.etp.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\puaxayfn.lwu.png",
+      "PackagePath": "staticwebassets\\images\\products\\puaxayfn.lwu.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\qfocgzeb.kb5.png",
+      "PackagePath": "staticwebassets\\images\\products\\qfocgzeb.kb5.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\qtwl0mod.sok.png",
+      "PackagePath": "staticwebassets\\images\\products\\qtwl0mod.sok.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\qzf04frt.5rv.png",
+      "PackagePath": "staticwebassets\\images\\products\\qzf04frt.5rv.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\r23q3m0m.3nx.png",
+      "PackagePath": "staticwebassets\\images\\products\\r23q3m0m.3nx.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\r42ws3ga.5ng.png",
+      "PackagePath": "staticwebassets\\images\\products\\r42ws3ga.5ng.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\rfi1jqnt.ka5.png",
+      "PackagePath": "staticwebassets\\images\\products\\rfi1jqnt.ka5.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\sis4m1up.2nn.png",
+      "PackagePath": "staticwebassets\\images\\products\\sis4m1up.2nn.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\tazbwx5h.dbq.png",
+      "PackagePath": "staticwebassets\\images\\products\\tazbwx5h.dbq.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\uaaeru1k.mk3.png",
+      "PackagePath": "staticwebassets\\images\\products\\uaaeru1k.mk3.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\unaxih5s.vad.png",
+      "PackagePath": "staticwebassets\\images\\products\\unaxih5s.vad.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\uvenbqyg.yue.png",
+      "PackagePath": "staticwebassets\\images\\products\\uvenbqyg.yue.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\v2nl0sk2.1o2.png",
+      "PackagePath": "staticwebassets\\images\\products\\v2nl0sk2.1o2.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\vwjxkdjv.jwx.png",
+      "PackagePath": "staticwebassets\\images\\products\\vwjxkdjv.jwx.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\wisf5yde.1ed.png",
+      "PackagePath": "staticwebassets\\images\\products\\wisf5yde.1ed.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\xcpdvgns.xwt.png",
+      "PackagePath": "staticwebassets\\images\\products\\xcpdvgns.xwt.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\yakfso0k.rsd.png",
+      "PackagePath": "staticwebassets\\images\\products\\yakfso0k.rsd.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\z0aegb4h.ly3.png",
+      "PackagePath": "staticwebassets\\images\\products\\z0aegb4h.ly3.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\z3s1xkh3.g2b.png",
+      "PackagePath": "staticwebassets\\images\\products\\z3s1xkh3.g2b.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\z4bvovcq.jtg.png",
+      "PackagePath": "staticwebassets\\images\\products\\z4bvovcq.jtg.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\products\\zyxujhl5.ali.png",
+      "PackagePath": "staticwebassets\\images\\products\\zyxujhl5.ali.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\reg1.jpg",
+      "PackagePath": "staticwebassets\\images\\reg1.jpg"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\reg2.jpg",
+      "PackagePath": "staticwebassets\\images\\reg2.jpg"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\reg3.jpg",
+      "PackagePath": "staticwebassets\\images\\reg3.jpg"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\reg4.jpg",
+      "PackagePath": "staticwebassets\\images\\reg4.jpg"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\sale.png",
+      "PackagePath": "staticwebassets\\images\\sale.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\images\\sale2.png",
+      "PackagePath": "staticwebassets\\images\\sale2.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\products\\product1.png",
+      "PackagePath": "staticwebassets\\products\\product1.png"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\styles\\AddOrder.css",
+      "PackagePath": "staticwebassets\\styles\\AddOrder.css"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\styles\\AddProduct.css",
+      "PackagePath": "staticwebassets\\styles\\AddProduct.css"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\styles\\AdminIndex.css",
+      "PackagePath": "staticwebassets\\styles\\AdminIndex.css"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\styles\\PW.css",
+      "PackagePath": "staticwebassets\\styles\\PW.css"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\styles\\Registration.css",
+      "PackagePath": "staticwebassets\\styles\\Registration.css"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\styles\\TR.css",
+      "PackagePath": "staticwebassets\\styles\\TR.css"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\styles\\index.css",
+      "PackagePath": "staticwebassets\\styles\\index.css"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\styles\\info.css",
+      "PackagePath": "staticwebassets\\styles\\info.css"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\styles\\login.css",
+      "PackagePath": "staticwebassets\\styles\\login.css"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\styles\\main.css",
+      "PackagePath": "staticwebassets\\styles\\main.css"
+    },
+    {
+      "Id": "D:\\Barahlo\\ШАРАГА\\dd\\FurnitureStore3\\wwwroot\\styles\\order.css",
+      "PackagePath": "staticwebassets\\styles\\order.css"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.FurnitureStore3.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.FurnitureStore3.props",
+      "PackagePath": "build\\FurnitureStore3.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.FurnitureStore3.props",
+      "PackagePath": "buildMultiTargeting\\FurnitureStore3.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.FurnitureStore3.props",
+      "PackagePath": "buildTransitive\\FurnitureStore3.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,127 @@
+﻿@using FurnitureStore3.Domain.Entities;
+@model OrderViewModel
+<link rel="stylesheet" href="~/styles/AddOrder.css" />
+
+@{
+    int ab = 0;
+        <div class="product-card1">        
+            @foreach (Product product in Model.Products)
+            {
+                if (product.Id == Model.ProductId)
+                {
+                    <h1 class="h1">@product.Name</h1>
+                <div class="image-container">
+                    <img src="/images/products/@product.ImageUrl">
+                </div>
+                <div class="description-container">
+                    <p>@product.Description</p>
+                    <p>Вес товара: @product.Weight кг</p>
+                    @if (@product.Discount == 0)
+                    {
+                        <p>Цена товара: @product.Price ₽</p>
+                    }
+                    else
+                    {
+                        int ActualPrice = @product.Price / 100 * (100 - @product.Discount);
+                        <p>Цена товара: <s>@product.Price ₽</s> @ActualPrice ₽</p>
+                    }
+                    <p>Текущее количество: @product.CurrentCount</p>
+                    <p>Количество проданных: @product.SoldCount</p>
+                </div>                    
+                }
+            }            
+    </div>
+    List<DateTime> info1 = new List<DateTime>();
+    List<int> info2 = new List<int>();
+    List<int> info3 = new List<int>();
+    
+    @foreach (PriceStory priceStory in Model.PriceStorys)
+    {
+        int inf1 = -1;
+        int inf2 = 0;
+        @foreach (CompleteOrder completeOrder in Model.CompleteOrders1)
+        {
+            @if (completeOrder.OrderStart > priceStory.ChangePrice)
+            {
+                string a1 = completeOrder.OrderProductsId;
+                string prodId1 = completeOrder.OrderProductsName;
+                string prodCount1 = completeOrder.OrderProductsCount;
+                string prodPrice1 = completeOrder.OrderProductsPrice;
+                
+                string[] prodId = new string[99];
+                string[] prodCount = new string[99];
+                string[] prodPrice = new string[99];
+                var a3 = a1.Split(',').ToList();
+                string[] a2 = new string[a3.Count];
+                var numbers = prodId1.Split(',').ToList();
+                var numbers1 = prodCount1.Split(',').ToList();
+                var numbers2 = prodPrice1.Split(',').ToList();
+                int i0 = 0;
+                foreach (var a4 in a3)
+                {
+                    a2[i0] = a4;
+                    if (a2[i0]!="")
+                    {
+                        if (Convert.ToInt32(a2[i0]) == Model.ProductId)
+                        {
+                            inf1 = i0;
+                        }
+                    }
+                                      
+                    i0++;
+                }
+                int i1 = 0;
+                foreach (var number in numbers)
+                {
+                    prodId[i1] = number;
+                    i1++;                    
+                }
+                int i2 = 0;
+                foreach (var number in numbers1)
+                {
+                    prodCount[i2] = number;
+                    i2++;
+                }
+                int i3 = 0;
+                foreach (var number in numbers2)
+                {
+                    prodPrice[i3] = number;                    
+                    i3++;
+                }
+                inf2 += Convert.ToInt32(prodCount[inf1]); 
+                i0 = 0;i1 = 0;i2 = 0;i3 = 0;
+            }            
+        }
+        if (inf1 != -1)
+        {
+            info1.Add(priceStory.ChangePrice);
+            info2.Add(priceStory.ProductNewPrice);
+            info3.Add(inf2);
+        }
+        else
+        {
+            <p style="font-size:20px;font-weight:500;margin-left:20px;">Цена на этот товар не изменялась</p>
+        }
+    }    
+    @for (int i=0;i<info1.Count;i++)
+    {
+        
+        if (i != info1.Count - 1 && i != info1.Count)
+        {
+            info3[i] = info3[i] - info3[i + 1];
+        }
+        <p style="font-size:20px;font-weight:500;margin-left:20px;">Цена поменялась @info1[i].ToString("d") на @info2[i] ₽, по этой цене купили @info3[i] шт.</p>
+    }
+    
+}
+
+
+
+<script>
+    // получаем кнопку по ее селектору CSS
+    let backButton = document.querySelector('#backButton');
+    // добавляем обработчик события
+    backButton.onclick = () => {
+        window.location = "/products/index";
+    };
+</script>

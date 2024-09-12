@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Магазин мебели</title>
+    <link rel="stylesheet" href="~/styles/main.css" />
+</head>
+<body>
+    <div class="wrapper-center">
+        <!--ШАПКА-->
+        <header>
+            <nav>
+                <div class="brand">
+                    <a href="https://localhost:7134/"><h1>Магазин мебели</h1></a>
+                </div>
+                <div class="links">
+                    <ul>
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <li><a href="~/orders/CompletedOrders">Мои заказы</a></li>
+                            <li><a href="~/orders/MyOrders">Корзина</a></li>
+                            <li><a asp-controller="User" asp-action="Logout">Выход</a></li>
+                        }
+                        else
+                        {
+                            <li><a href="~/user/login">Вход</a></li>
+                        }
+                                               
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!--ОСНОВНАЯ ЧАСТЬ-->
+        <main>
+            <div class="content">
+                @RenderBody()
+            </div>
+        </main>
+        <!--ПОДВАЛ-->
+        <footer class="page-footer  container">
+            <p><a href="~/products/ProductWarranty">Гарантии на товары</a></p>
+            <p><a href="~/products/TermsReturn">Условиях возврата товара</a></p>
+            <p><a href="~/products/aboutdelivery">О доставке</a></p>
+            <p><a href="~/products/UsingService">Пользование сервисом</a></p>
+        </footer>
+    </div>
+</body>
+</html>
+

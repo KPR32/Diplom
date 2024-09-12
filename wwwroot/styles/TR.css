@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.h1h{
+    margin-top:35px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  font-family: 'Rubik', sans-serif;
+}
+
+.content {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.procedur {
+  margin-bottom: 60px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.product {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.product-image {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+.product-description {
+  flex: 1;
+  margin-bottom: 40px;
+  width: 750px;
+}
+
+.list-element{
+  margin-bottom: 20px;
+}
+
+
+.page-header {
+  height: 100px;
+  background-image: url('images/header1.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+.wrapper-center {
+  background-color: #E9E8E0;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  background: #E9E8E0;
+  height: 3em;
+  margin: 1em 2em;
+  align-items: center;
+  border-radius: 5px;
+  padding-left: 2em;
+}
+
+nav a:link {
+  text-decoration: none;
+  color: #242C35;
+}
+
+nav a:visited {
+  text-decoration: none;
+  color: #242C35;
+}
+
+.links a:hover {
+  color: #D2AB99;
+}
+
+.brand h1 {
+  font-weight: 300;
+}
+
+.links ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.links li {
+  flex-grow: 1;
+  margin-right: 2em;
+}
+
+.page-footer { 
+  margin: 0 auto;
+  padding: 0 55px;
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  height: 45px;
+  background-color: black;
+  padding-top: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #FFA500; /* Цвет ссылок */
+}
+
+a:visited {
+  color: #FFA500; /* Цвет посещенных ссылок */
+}
+
+a:active {
+  color: #FFA500; /* Цвет активной ссылки */
+} 

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.h1h{
+    margin-top:35px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  font-family: 'Rubik', sans-serif;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+p {
+    margin-top: 10px;
+}
+
+.header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.description-section {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+    ul li {
+        padding-left: 2rem;
+        line-height: 1.6;
+    }
+
+p {
+    margin-top: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #FFA500; /* Цвет ссылок */
+}
+
+a:visited {
+  color: #FFA500; /* Цвет посещенных ссылок */
+}
+
+a:active {
+  color: #FFA500; /* Цвет активной ссылки */
+} 

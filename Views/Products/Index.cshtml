@@ -1,0 +1,97 @@
+﻿@using FurnitureStore3.Domain.Entities
+@model ProductsCatalogViewModel
+<link rel="stylesheet" href="~/styles/index.css" />
+
+@{
+    <div class="products-container">
+        <div class="categories-list">            
+            <h1 class="custom-colored-h1">Категории товаров</h1>            
+            <ul>
+                @foreach (Category category in Model.Categories)
+                {
+                    <li>
+                        <a href="/products/index/?categoryId=@category.Id">
+                            @category.Name
+                        </a>
+                    </li>
+                }
+            </ul>
+        </div>
+
+        
+
+        <div class="products-list">
+            <div class="product-card-actions">
+                @if (User.IsInRole("admin"))
+                {
+                    <a class="link-button" href="~/products/AdminIndex">Контроль остатков</a>
+                    <a href="~/products/AddProduct" class="link-button">Добавить товар</a>
+                }
+            </div>            
+            <div class="searchbar">
+                <form>
+                    <label style="color:black;">Найти товар: </label>
+                    <input type="text" placeholder=" Укажите название" class="searchstring" name="searchstring" />
+                    <input type="submit" value="Найти" class="link-button" />
+                </form>
+            </div>
+
+            @foreach (Product product in Model.Products)
+            {
+                
+                {
+                    <div class="product-card">
+                        <div class="product-card-left">
+                            @if (@product.Discount > 0)
+                            {
+                                <div class="saleIcon"><img src="/images/sale2.png" /></div>
+                            }
+                            <div class="image-container">                                
+                                <img src="/images/products/@product.ImageUrl">                                                                
+                            </div>
+                            @if (User.IsInRole("admin"))
+                            {
+                                <div class="product-card-actions">
+                                    <a class="link-button" asp-action="UpdateProduct" asp-controller="Products" asp-route-productId="@product.Id">Изменить</a>                                    
+                                    @if (@product.Visibility == 0)
+                                    {
+                                        <a class="link-button" asp-action="ShowProduct" asp-controller="Products" asp-route-productId="@product.Id">Показать</a>
+                                    }
+                                    else
+                                    {
+                                        <a class="link-button" asp-action="DeleteProduct" asp-controller="Products" asp-route-productId="@product.Id">Скрыть</a>
+                                    }
+                                </div>
+                            }
+                        </div>
+                        <div class="product-card-right">
+                            <h2>@product.Name</h2>
+                            <p>@product.Description</p>
+                            <p>Вес товара: @product.Weight кг</p>
+                            @if (@product.Discount == 0)
+                            {
+                                <p>Цена товара: @product.Price ₽</p>
+                            }
+                            else
+                            {
+                                int ActualPrice = @product.Price / 100 * (100 - @product.Discount);
+                                <p>Цена товара: <s>@product.Price ₽</s> @ActualPrice ₽</p>
+                            }
+                            <div class="placeholder-div"></div>
+                            <a class="link-button-download" asp-action="AddOrder" asp-controller="Orders" asp-route-productId="@product.Id">Просмотреть товар</a>
+                        </div>
+                    </div>
+                }                
+            }
+        </div>
+    </div>
+}
+
+<script>
+    // получаем кнопку по ее селектору CSS
+    let OnlyHidden = document.querySelector('#backButton');
+    // добавляем обработчик события
+    backButton.onclick = () => {
+        window.location = "/products/index/?productVisibility=0";
+    };
+</script>
